@@ -1,0 +1,64 @@
+.navlinks {
+    background-color: mediumpurple;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: darkviolet;
+}
+
+ul {
+    padding: 0; 
+    margin: 0;
+}
+
+li {
+    padding: 16px;
+    border: 1px solid black;
+}
+li:hover {
+    background-color: darkviolet;
+  }
+.imagebanner {
+    background-image: url("photos/microbanner.jpeg");
+    padding: 100px 0; 
+    background-size: cover;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+.introduction {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.ourgames {
+    text-align: center;
+    margin: 32px;
+}
+@media screen and (min-width: 700px) {
+    ul{
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+
+    .eme {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
